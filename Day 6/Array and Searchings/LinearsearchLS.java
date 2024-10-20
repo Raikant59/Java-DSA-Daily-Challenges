@@ -1,4 +1,4 @@
-package DSA.Searchings;
+
 
 public class LinearsearchLS {
     public static void main(String args[]){
