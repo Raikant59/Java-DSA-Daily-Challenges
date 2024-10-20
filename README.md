@@ -45,7 +45,7 @@ Each day, I solve one or more problems related to Java or DSA and upload the sol
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YourUsername/Java-DSA-Daily-Challenges.git
+   git clone https://github.com/Raikant59/Java---DSA
 2. Navigate to the day’s folder and review the problem and its solution.
 
 
