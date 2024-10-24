@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Counting {
     public static void main(String[] args) {
         int arr[]={4,2,7,5,1,9};
