@@ -1,0 +1,5 @@
+Go to GFG then learn some concepts :- 
+Link :- https://www.geeksforgeeks.org/all-about-bit-manipulation/
+1. Binary number system and decimal number system
+2. Bit-wise operators
+3. Operation performed on bits like :- Get ith bit

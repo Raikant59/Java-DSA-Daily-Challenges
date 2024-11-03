@@ -4,7 +4,6 @@ public class SpiralMatrix {
                      {1,2,3},
                      {5,6,7},
                      {9,10,11},
-                     {13,14,15}
                     };
         int n=arr.length;
         int m=arr[0].length;
@@ -16,7 +15,7 @@ public class SpiralMatrix {
         int er=n-1; // end row
         int sc=0; // Start column
         int ec=m-1; // end column
-        
+
         while(sr<=er && sc<=ec){
             // top 
             for(int i=sc;i<=ec;i++){
