@@ -1,0 +1,5 @@
+They are of 4 types :- 
+                    1. Private:- Acess within the class only.
+                    2. Default:- Acess within the class and package only.
+                    3. Protected:- Access within the class ,package & outside the package by subclass only.
+                    4. Public:- Access within the class ,package & outside the package by any class means everywhere it can be used.

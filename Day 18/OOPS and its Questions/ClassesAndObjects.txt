@@ -1,0 +1,21 @@
+Class :- It is a blueprint and group of entities.
+Entity :- It is a single object or a single instance of a class.
+
+Example how class and objects create :- 
+
+   public class main{
+    public static void main(String[] args) {
+        // Creating an object of the class
+        Pen p1=new Pen();
+        System.out.println(p1.setcolor("red"));
+    }
+   }
+
+   // Creating a Class
+   public class Pen{
+        String color_of_pen;
+
+        void setcolor(int newcolor){
+            color_of_pen = newcolor;
+        }
+   }

@@ -1,0 +1,4 @@
+Get :- Create to return the value.
+Set :- Create to modify the value.
+
+This : this keyword is used to refer to the current object.
