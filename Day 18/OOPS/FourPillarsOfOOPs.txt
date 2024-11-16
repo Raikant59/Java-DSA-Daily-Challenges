@@ -1,0 +1,40 @@
+There are four pillars of OOPs.
+1.Encapsulation
+2.Inheritance
+3.Polymorphism
+4.Abstraction
+
+Encapsulation :- Wrapping up of data and methods under a single unit. It also implements data hiding.
+      Constructor :- It is a special method that invoked automatically at the time of the object creation.
+                   Types of Constructor:- 
+                     1. Non-Paramaterized
+                     2. Parameterized
+                     3. Copy Constructor
+      Destructor :- In c++, there are special function that delete object memory which is del function. while In Java, Garbage collector is present 
+                    that automatically delete the variables, objects after theybecome unused.
+
+Inheritance :- It is when properties and methods of parent class are passed to child class.
+      They are of 5 types:-
+      1. Single Inheritance
+      2. Multiple Inheritance - This was not present in java. To do this we use interfaces in java.
+      3. Multilevel Inheritance
+      4. Hierarchical Inheritance
+      5. Hybrid Inheritance
+
+Polymorphism :- It means exist in Multiple forms.
+      Types of Polymorphism:-
+      1.Compile Time Polymorphism
+           Method Overloading 
+      2.Runtime Polymorphism
+           Method Overriding
+
+Abstraction :- It is a concept of hiding the internal details and showing only the necessary information to the user.
+       It is implements using :- 
+       1. Abstract Class
+       2. interfaces
+
+There are two keywords also :- 
+       1. Super
+       2. Static 
+
+// Learn more about this from GFG(GeeksforGeeks)              
