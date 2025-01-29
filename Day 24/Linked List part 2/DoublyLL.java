@@ -12,6 +12,7 @@ public class DoublyLL {
     public static Node head;
     public static Node tail;
 
+    // addfirst
     static void addfirst(int data){
         Node newNode = new Node(data);
         if(head == null){
@@ -23,6 +24,7 @@ public class DoublyLL {
         head = newNode;
     }
 
+    // addlast
     static void addlast(int data){
         Node newNode = new Node(data);
         if(head == null){
@@ -34,6 +36,35 @@ public class DoublyLL {
         tail = newNode; 
     }
 
+    // removefirst
+    static void removefirst(){
+        if(head == null){
+            System.out.println("List is empty");
+            return;
+        }
+        if(head == tail){
+            head = tail = null;
+            return;
+        }
+        head = head.next;
+        head.prev = null;
+    }
+
+    // removelast
+    static void removelast(){
+        if(head == null){
+            System.out.println("List is empty");
+            return;
+        }
+        if(head == tail){
+            head = tail = null;
+            return;
+        }
+        tail=tail.prev;
+        tail.next = null;
+    }
+
+    // display
     static void display(){
         Node temp = head;
         while(temp!=null){
@@ -41,11 +72,17 @@ public class DoublyLL {
             temp = temp.next;
         }
         System.out.print("null");
+        System.out.println();
     }
     public static void main(String[] args) {
         addfirst(10);
         addfirst(20);
         addlast(30);
+        addlast(40);
+        display();
+        removefirst();
+        display();
+        removelast();
         display();
     }
 }
