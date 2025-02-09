@@ -6,7 +6,7 @@ public class PriorityQueueUsingJCF {
 
         pq.add(10);
         pq.add(5);
-        pq.add(9);
+        pq.add(11);
         pq.add(1);
 
         while (!pq.isEmpty()) {
