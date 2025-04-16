@@ -68,15 +68,20 @@ public class InsertPeekDeleteInHeap {
     }
 
     public static void main(String[] args) {
-        Heap h = new Heap();
-        h.add(2);
-        h.add(3);
-        h.add(4);
-        h.add(10);
-        h.add(5);
-        while(!h.isEmpty()){
-            System.out.print(h.peek()+" ");
-            h.delete();
+        Heap pq = new Heap();
+        pq.add(11);
+        pq.add(15);
+        pq.add(1);
+        pq.add(18);
+        pq.add(23);
+        pq.add(40);
+        pq.add(4);
+        pq.add(7);
+        pq.add(2);
+        pq.add(21);
+        while(!pq.isEmpty()){
+            System.out.print(pq.peek()+" ");
+            pq.delete();
         }
     }
 }
