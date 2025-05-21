@@ -24,7 +24,7 @@ public class CreateGraph_and_printNeighbours {
         // 0 Vertex
         graph[0].add(new Edge(0, 1, 5));
 
-        // 1 Vertex
+        // 1 Vertex  
         graph[1].add(new Edge(1, 0, 5));
         graph[1].add(new Edge(1, 2, 1));
         graph[1].add(new Edge(1, 3, 3));
@@ -46,7 +46,5 @@ public class CreateGraph_and_printNeighbours {
             Edge ele = graph[2].get(i);
             System.out.println(ele.dest);
         }
-
-
     }
 }
