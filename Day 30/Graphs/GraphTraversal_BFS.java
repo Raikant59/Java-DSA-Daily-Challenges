@@ -35,7 +35,7 @@ public class GraphTraversal_BFS {
         Queue<Integer> q = new LinkedList<>();
         boolean vis[] = new boolean[V];
         q.add(0);
-        for(int i=0;i<V;i++){
+        while(!q.isEmpty()){
             int curr = q.remove();
             if(!vis[curr]){
                 System.out.print(curr+" ");
